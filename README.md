@@ -1,4 +1,4 @@
-# Hossenini Khorami et al., 2025; Unstable mitochondrial heteroplasmy in Mytilus edulis primary cell cultures
+# Hossenini Khorami et al., 2025; Unstable mitochondrial heteroplasmy in _Mytilus edulis_ primary cell cultures
 
 ## Mapping tissue and cell derived Illumina sequences of the blue mussel _Mytilus edulis_ against male and female mitochondrial genomes
 
