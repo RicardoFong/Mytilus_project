@@ -1,12 +1,14 @@
-# Hosseini Khorami et al., 2025; Unstable mitochondrial heteroplasmy in _Mytilus edulis_ primary cell cultures
+# Hosseini Khorami et al., 2026; Unstable mitochondrial heteroplasmy in _Mytilus edulis_ primary cell cultures
 
 ## Mapping tissue and cell derived Illumina sequences of the blue mussel _Mytilus edulis_ against male and female mitochondrial genomes
 
-The proces described in this file is relative to the work of Hosseini Khorrami et al., 2025. The aim is to share the detailed mapping process of Illumina NovaSeq sequencing data described in the main paper. You can refer to the publication in the header of this file for the results on this workflow.
+This repository documents the read trimming, mapping, and quantification workflow used in Hosseini Khorami et al. (2026). The purpose of this repository is to provide a detailed and transparent description of the computational procedures applied to the Illumina NovaSeq sequencing data analyzed in the study. The results generated using this workflow are reported in the associated publication.
+
+This repository is intended for documentation and reproducibility purposes and does not constitute a general-purpose analysis pipeline.
 
 ## Mapping and quantification process:
 
-- Reads were single end. files were trimmed from adapters and sequencing artifacts such as polyG sequences using fastp v-0.24.0
+- Reads were single-end. Files were trimmed for adapters and sequencing artifacts (e.g. polyG sequences) using fastp v0.24.0.
 
 ```sh
 $ fastp -i "infile.fastq.gz" --adapter_sequence=AGATCGGAAGAGCACACGTCTGAACTCCAGTCA \
